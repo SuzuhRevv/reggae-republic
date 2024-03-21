@@ -1,0 +1,86 @@
+@media screen and (min-width: 1080px){
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        margin: 0;
+        width: 100%;
+        height: 487px;
+    }
+    
+    .rodape-p{
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        margin-bottom: 36px;
+    }
+    
+    .logo1{
+        margin-bottom: 50px;
+    }
+    
+    .social-row{
+        margin-left: -45px;
+    }
+
+    .logo-m, .social-row-mobile, .rodape-m, .logo2{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 1079px){
+    .rodape{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        margin: 0;
+        width: 100%;
+        height: 131px;
+    }
+    
+    .rodape-p{
+        display: none;
+    }
+    
+    .logo1{
+        display: none;
+    }
+    
+    .social-row{
+        display: none;
+    }
+    
+    .patrocinios{
+        display: none;
+    }
+
+    .logo2{
+        width: 40px;
+        align-self: center;
+        margin-bottom: 15px;
+    }
+
+    .column1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon2{
+        margin: 10px;
+    }
+
+    .rodape-m{
+        color: white;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 13px;
+    }
+}

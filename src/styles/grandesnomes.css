@@ -1,0 +1,234 @@
+@media screen and (min-width: 1080px){
+    .grandes-nomes{
+        width: 100%;
+        height: 1896px;
+        background-color: black;
+    }
+    
+    .grandes-nomes-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 87px;
+        margin-top: 75px;
+        margin-bottom: 40px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 213px;
+        margin-bottom: 32px;
+        text-align: center;
+        color: white;
+    }
+    
+    .grandes-nomes-subtitle{
+        font-family: 'Poppins', sans-serif;
+        font-size: 39px;
+        font-weight: 400;
+        line-height: 59px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 332px;
+        text-align: center;
+        color: white;
+        width: 1139px;
+    }
+    
+    .grandes-nomes-content{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 541px;
+        width: 1156px;
+        height: 1100px;
+    }
+    
+    .name{
+        width: 490px;
+        height: 290px;
+        color: white;
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 100px;
+    
+    }
+    
+    .line2{
+        position: absolute;
+        margin-top: -30px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .section1 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 490px;
+      }
+      
+    .section2 {
+        position: absolute;
+        left: 0;
+        right: 210px;
+        top: 0;
+        bottom: 0;
+        width: 490px;
+      }
+    
+    .n1, .n3, .n5{
+        font-family: 'Poppins', sans-serif;
+        font-size: 49px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0em;
+        margin-bottom: 50px;
+        color: #F7D901;
+    }
+    
+    .n2, .n4, .n6{
+        font-family: 'Poppins', sans-serif;
+        font-size: 49px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0em;
+        margin-bottom: 50px;
+        color: #CD211F;
+    }   
+}
+
+@media screen and (max-width: 1079px){
+    .grandes-nomes{
+        width: 375px;
+        height: 914px;
+        background-color: black;
+    }
+    
+    .grandes-nomes-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-top: 42px;
+        margin-bottom: 30px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: white;
+        width: 225px;
+        height: 40px;
+        margin-left: 75px;
+    }
+    
+    .grandes-nomes-subtitle{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 111px;
+        text-align: center;
+        color: #E4E4E4;
+        width: 251px;
+        height: 63px;
+        margin-left: 62px;
+    }
+    
+    .grandes-nomes-content{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 262px;
+        width: 331px;
+        height: 605px;
+        margin-left: 20px;
+    }
+    
+    .name{
+        width: 150px;
+        height: 190px;
+        color: white;
+        margin: 0px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 12px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 35px;
+        margin-left: 15px;
+    
+    }
+    
+    .line2{
+        position: absolute;
+        margin-top: 0px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: 600px;
+    }
+    
+    .section1 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+      }
+      
+    .section2 {
+        position: absolute;
+        left: 0;
+        right: 110px;
+        top: 0;
+        bottom: 0;
+        width: 150px;
+      }
+    
+    .n1, .n3, .n5{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        margin-bottom: 20px;
+        color: #F7D901;
+    }
+    
+    .n2, .n4, .n6{
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        margin-bottom: 20px;
+        color: #CD211F;
+    } 
+
+    .nametext{
+        height: 140px;
+        width: 125px; 
+    }
+}

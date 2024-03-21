@@ -1,0 +1,112 @@
+@media screen and (min-width: 1080px){
+    .aboutUs{
+        height: 1350px;
+        width: 100%;
+    }
+    
+    .event-title{
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 87px;
+        margin-bottom: 19px;
+        margin-top: 212px;
+    }
+    
+    .event-subtitle{
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 39px;
+        font-weight: 600;
+        line-height: 59px;
+        color: #676767;
+        margin-bottom: 150px;
+    }
+    
+    .aboutUs-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    
+    .aboutUs-text-container{
+        width: 550px;
+        height: 634px;
+    }
+    
+    .aboutUsText{
+        font-family: 'Poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0em;
+        margin-top: 0px;
+    }
+    
+    .about-img{
+        height: 543px;
+        height: 635px;
+    }    
+
+    .about-img2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1079px){
+    .aboutUs{
+        height: 630px;
+        width: 375px;
+    }
+    
+    .event-title{
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        margin-bottom: 11px;
+        margin-top: 10px;
+    }
+    
+    .event-subtitle{
+        display: flex;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 15px;
+        color: #676767;
+        margin-bottom: 10px;
+    }
+    
+    .aboutUs-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .aboutUs-text-container{
+        width: 325px;
+        height: 300px;
+    }
+    
+    .aboutUsText{
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        margin-top: 0px;
+    }
+    
+    .about-img{
+        display: none;
+    }  
+}

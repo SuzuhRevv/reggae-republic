@@ -1,0 +1,68 @@
+@media screen and (min-width: 1080px){
+    .cabeçalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: black;
+        margin: 0;
+        width: 100%;
+        height: 80px;
+    }
+    
+    .icon{
+        margin: 9px;
+    }
+    
+    .cabeçalho-redes-icons{
+        margin-top: 25px;
+    }
+    
+    .logo{
+        width: 60px;
+        height: 52.5px;
+        margin-top: -25px;
+        margin-right: 650px;
+    
+    }
+
+    .sanduiche{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1079px){
+    .cabeçalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+        margin: 0;
+        width: 100%;
+        height: 53px;
+    }
+    
+    .icon{
+        margin: 9px;
+    }
+    
+    .cabeçalho-redes-icons{
+        margin-top: 25px;
+        display: none;
+    }
+    
+    .logo{
+        width: 30px;
+        height: 26px;
+        margin-top: 15px;
+        margin-left: 20px;
+    
+    }
+
+    .sanduiche{
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+}

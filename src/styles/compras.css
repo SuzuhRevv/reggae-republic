@@ -1,0 +1,456 @@
+.buy-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 4200px;
+    margin-left: 10%;
+
+}
+
+.titulo1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 59px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.line3{
+    width: 100%;
+}
+
+.line4{
+    height: 7px;
+    width: 23%;
+    margin-bottom: 90px;
+}
+
+.selecionar-ingressos{
+    background-color: #F7D901;
+    height: 1475px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.selection-row1{
+    margin-top: 135px;
+}
+
+.selection-row1, .selection-row2, .selection-row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.count-subtotal{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.sub-total{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.add-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.num1, .num2, .num3{
+    margin-right: 70px;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    width: 30px;
+}
+
+.selecionar-louge, .selecionar-arena, .selecionar-backstage{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.louge-price, .arena-price, .backstage-price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.pay-button1 {
+    background-color: #009C33;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    width: 30%;
+    margin-left: 35%;
+    height: 55px;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+  
+.disc-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.line4-2{
+    height: 7px;
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.payment1{
+    background-color: #F7D901;
+    height: 912px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.method-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 2%;
+}
+
+.card-imgs{
+    display: flex;
+    align-content: center;
+}
+
+.mastercard{
+    margin-right: 20px;
+}
+
+.input-container1 {
+    color: #676767;
+    border: 1px solid #676767;
+    border-radius: 8px;
+    height: 71px;
+    width: 100%;
+    max-width: 900px; /* Valor ajustável conforme necessário */
+    margin-bottom: 25px;
+}
+
+
+.input-container2 {
+    color: #676767;
+    border: 1px solid #676767;
+    border-radius: 8px;
+    height: 71px;
+    width: 800px;
+    margin-bottom: 25px;
+}
+
+.input-container3 {
+    color: #676767;
+    border: 1px solid #676767;
+    border-radius: 8px;
+    height: 71px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.form-group1, .form-group3, .inp1, .inp2 {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: baseline;
+    margin-left: 15%;
+}
+
+.inp2{
+    margin-left: 0px;
+}
+
+.form-group2{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+  
+.form-group1 label, .form-group2 label, .form-group3 label {
+    font-family: 'Poppins', sans-serif;
+    width: 250px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.confirm-button {
+    background-color: #009C33;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 55px;
+    width: 20%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 40%;
+    margin-top: 35px;
+}
+
+.line4-3{
+    height: 7px;
+    width: 168%;
+    margin-bottom: 90px;
+}
+
+.confirmaçao{
+    height: 780px;
+    width: 50%;
+    margin-left: 25%;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+.conf-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 100px;
+}
+
+.conf-text1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.bold{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+.confirm2-button{
+    background-color: #009C33;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 55px;
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 30%;
+    margin-top: 35px;
+}
+@media (max-width: 1080px) {
+    .buy-container {
+      width: 100%;
+      margin-left: 0;
+      padding: 0 20px;
+    }
+  
+    .subtotal {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .titulo1 {
+      font-size: 24px;
+      line-height: 30px;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+  
+    .line4,
+    .line4-2,
+    .line4-3 {
+      display: none;
+    }
+  
+    .selecionar-ingressos,
+    .payment1,
+    .confirmaçao {
+      height: auto;
+      width: 100%;
+      border-radius: 0;
+      padding: 20px;
+      margin-bottom: 40px;
+      margin-left: 0;
+    }
+  
+    .payment1 {
+      background-color: #F7D901;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .selecionar-ingressos {
+      width: 500px;
+    }
+  
+    .selection-row1,
+    .selection-row2,
+    .selection-row3 {
+      flex-direction: column;
+      margin-right: 0;
+      margin-left: 0;
+      margin-bottom: 30px;
+    }
+  
+    .add-buttons {
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .num1,
+    .num2,
+    .num3 {
+      margin-right: 10px;
+      margin-left: 10px;
+      font-size: 18px;
+    }
+  
+    .selecionar-louge,
+    .selecionar-arena,
+    .selecionar-backstage {
+      font-size: 24px;
+    }
+  
+    .louge-price,
+    .arena-price,
+    .backstage-price {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  
+    .pay-button1,
+    .confirm-button,
+    .confirm2-button {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      font-size: 16px;
+    }
+  
+    .pay-button1 {
+      padding: 9px 87px 9px 87px ;
+    }
+  
+    .payment1 .method-info {
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 60px;
+    }
+  
+    .payment1 .method-info .card-imgs {
+      justify-content: center;
+    }
+  
+    .payment1 .input-container1,
+    .payment1 .input-container2,
+    .payment1 .input-container3 {
+      max-width: 400px;
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  
+    .payment1 .form-group1,
+    .payment1 .form-group2,
+    .payment1 .form-group3,
+    .payment1 .inp1,
+    .payment1 .inp2 {
+      margin-left: 0;
+    }
+  
+    .payment1 .form-group1 label,
+    .payment1 .form-group2 label,
+    .payment1 .form-group3 label {
+      width: 100%;
+      margin-right: 0;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .payment1 .confirm-button {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 35px;
+      }
+  
+    .confirmaçao {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        border: 5px solid red;
+        border-radius: 15px;
+        padding: 20px;
+    }
+  
+    .confirmaçao .conf-text,
+    .confirmaçao .conf-text1,
+    .confirmaçao .bold {
+      font-size: 18px;
+      line-height: 24px;
+      margin-left: 20px;
+    }
+  
+    .confirmaçao .confirm2-button {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 35px;
+    }
+  }

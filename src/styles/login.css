@@ -1,0 +1,291 @@
+@media screen and (min-width: 1080px){
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        width: 1290px;
+        height: 975px;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    
+    .spacer {
+        background-image: url('/../../login.svg');
+        background-color: #009C33;
+    }
+      
+    
+    footer {
+        height: 100px; /* Define a altura do rodapé */
+    }
+    
+    
+      
+    .login-title {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 87px;
+        margin-bottom: 40px;
+    }
+      
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 974.7885131835938px;
+        height: 485.101806640625px;
+        margin-bottom: 100px;
+    }
+      
+    .form-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+      
+    .form-group label {
+        font-family: 'Poppins', sans-serif;
+        width: 80px;
+        margin-right: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+      
+    .input-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+      
+    .remember-me {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 75px;
+        margin-top: 35px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+    }
+      
+    .login-button {
+        background-color: #009C33;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        height: 90px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+    }
+      
+    .divider {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+        
+    }
+    
+      
+    .register-link {
+        display: inline-block;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+      
+    .verde{
+        color: #009C33;
+    }
+    
+    .rodape {
+        display: flex;
+      }
+    
+    .page-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    
+    .input-container {
+        color: #676767;
+        border: 1px solid #676767;
+        border-radius: 8px;
+        height: 71px;
+        width: 965px;
+        margin-bottom: 25px;
+    
+    }
+    
+    .loginbg{
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .background{
+        width: 100%; 
+        height: 100%; 
+        position: fixed; 
+        left: 0px; 
+        top: 0px; 
+        z-index: -1;
+    }
+}
+
+@media screen and (max-width: 1079px){
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        height: 422px;
+        padding: 5px;
+        background-color: #ffffff;
+        border-radius: 8px;
+        margin: 0;
+        margin-top: 50px;
+    }
+    
+    .spacer {
+        background-image: url('/../../login.svg');
+        background-color: #009C33;
+    }
+      
+    
+    footer {
+        height: 100px; /* Define a altura do rodapé */
+    }
+        
+    .login-title {
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+      
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 374px;
+        height: 422px;
+        margin-bottom: 0px;
+    }
+      
+    .form-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: baseline;
+    }
+      
+    .form-group label {
+        font-family: 'Poppins', sans-serif;
+        width: 80px;
+        margin-right: 10px;
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 400;
+    }
+      
+    .input-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+      
+    .remember-me {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        line-height: 14px;
+    }
+      
+    .login-button {
+        background-color: #009C33;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        height: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 15px;
+        width: 330px;
+        margin-left: 20px;
+    }
+      
+    .divider {
+        border: none;
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
+        
+    }
+      
+    .register-link {
+        display: inline-block;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+      
+    .verde{
+        color: #009C33;
+    }
+    
+    .rodape {
+        display: flex;
+      }
+    
+    .page-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 100vh;
+    }
+
+    .input-container {
+        color: #676767;
+        border: 1px solid #676767;
+        border-radius: 3px;
+        height: 24px;
+        width: 324px;
+        margin-bottom: 14px;
+    
+    }
+    
+    .loginbg{
+        display: none;
+    }
+    
+    .background{
+        display: none;
+    }
+}

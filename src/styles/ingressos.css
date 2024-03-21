@@ -1,0 +1,95 @@
+@media screen and (min-width: 1080px){
+    .ingressos{
+        width: 100%;
+        height: 1136px;
+        position: relative;
+    }
+    
+    .ingressos-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 58px;
+        font-weight: 700;
+        line-height: 87px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 212px;
+        text-align: center;
+    }
+    
+    .comprarIngresso{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 869px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #009C33;
+        border-radius: 5px;
+        color: #ffffff;
+        border-color: #009C33;
+        height: 55px;
+        width: 270px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 0;
+        cursor: pointer;
+    }
+    
+    .category-row{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 403px;
+        text-align: center;
+    }
+    
+    .category{
+        width: 386px;
+        height: 361px;
+        margin: 35px;
+    }
+}
+
+@media screen and (max-width: 1079px){
+    .ingressos{
+        width: 375px;
+        height: 1050px;
+        position: relative;
+    }
+    
+    .ingressos-title{
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 15px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 40px;
+        text-align: center;
+        height: 24px;
+        width: 148px;
+        margin-left: 114px;
+    }
+    
+    .comprarIngresso{
+        display: none;
+    }
+    
+    .category-row{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .category{
+        width: 318px;
+        height: 256px;
+        margin: 30px;
+    }
+}
